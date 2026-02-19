@@ -4,9 +4,9 @@ public class Account {
 
    public static string Name = "Dave";
 
-   public static string ChangeName (string NewName) 
+   public static string ChangeName () 
    {
-       Name = newName;
+       Name = "Jack";
       
        return Name;
    }
@@ -16,4 +16,5 @@ public class Account {
 
    
 }
+
 
