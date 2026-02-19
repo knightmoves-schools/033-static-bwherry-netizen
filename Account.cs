@@ -4,10 +4,11 @@ public class Account {
 
    public static string Name = "Dave";
 
-   public static string ChangeName () 
+   public static string ChangeName (string newName) 
    {
-       Name = "Jack";
+       Name = newName
       
        return Name;
    }  
 }
+
