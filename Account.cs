@@ -6,9 +6,12 @@ public class Account {
 
    public static string ChangeName (string newName) 
    {
-       Name = "Jack";
+       newName = "Jack";
+      
+       Name = newName;
       
        return Name;
    }  
 }
+
 
