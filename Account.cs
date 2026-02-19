@@ -2,12 +2,13 @@
 
 public class Account {
 
-   public static string Name = "Dave";
+   static string Name = "Dave";
 
-   public static string ChangeName (string name) 
+   static string ChangeName () 
    {
-       Account name = new Name "Jack"
+       Name = "Jack";
       
        return Name;
    }  
 }
+
